@@ -63,23 +63,23 @@ public class AddData implements CommandLineRunner {
 		Coupon coupon = new Coupon(company.getId(), Category.Food, "couponOne",
 				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 10, 10)), Utils.convertUtilDateToSQL(new Date(2020, 10, 10)),
-				10, 50, "https://media.htzone.co.il/482/89/130729.jpg");
+				10, 50, "https://image.freepik.com/free-photo/flat-lay-arrangement-with-burgers-pizza_23-2148308817.jpg");
 		company.addCoupon(coupon);
 		Coupon coupon1 = new Coupon(company.getId(), Category.Electricity, "couponTwo", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 10, 10)), Utils.convertUtilDateToSQL(new Date(2020, 10, 10)),
-				10, 60, "https://media.htzone.co.il/489/36/131810.jpg");
+				10, 60, "https://media.htzone.co.il/512/70/136322.jpg");
 		company.addCoupon(coupon1);
 		Coupon coupon2 = new Coupon(company1.getId(), Category.Food, "couponThree", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 10, 10)), Utils.convertUtilDateToSQL(new Date(2020, 10, 10)),
-				10, 125, "https://media.htzone.co.il/504/15/134488.jpg");
+				10, 125, "https://image.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg");
 		company1.addCoupon(coupon2);
 		Coupon coupon3 = new Coupon(company1.getId(), Category.Sport, "couponFour", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 10, 10)), Utils.convertUtilDateToSQL(new Date(2020, 10, 11)),
-				10, 99, "https://www.idosport.co.il/wp-content/uploads/2020/06/trx-%D7%AA%D7%95%D7%90%D7%9D.png");
+				10, 99, "https://image.freepik.com/free-photo/strong-man-training-gym_1303-23876.jpg");
 		company1.addCoupon(coupon3);
 		Coupon coupon4 = new Coupon(company2.getId(), Category.Food, "couponFive", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 11, 11)), Utils.convertUtilDateToSQL(new Date(2020, 11, 11)),
-				10, 138, "https://media.htzone.co.il/503/93/134448.jpg");
+				10, 138, "https://image.freepik.com/free-photo/top-view-chicken-wings-plate-with-sesame-seeds-beer_23-2148679082.jpg");
 		company2.addCoupon(coupon4);
 		Coupon coupon5 = new Coupon(company2.getId(), Category.Electricity, "couponSix", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 10, 10)), Utils.convertUtilDateToSQL(new Date(2020, 10, 10)),
@@ -87,11 +87,11 @@ public class AddData implements CommandLineRunner {
 		company2.addCoupon(coupon5);
 		Coupon coupon6 = new Coupon(company3.getId(), Category.Vacation, "couponSeven", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 11, 11)), Utils.convertUtilDateToSQL(new Date(2020, 11, 11)),
-				10, 567, "https://media.htzone.co.il/37636/108017.jpg");
+				10, 567, "https://image.freepik.com/free-photo/young-man-relax-bed-enjoying-mountain-view_1423-236.jpg");
 		company3.addCoupon(coupon6);
 		Coupon coupon7 = new Coupon(company3.getId(), Category.Vacation, "couponEight", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 12, 12)), Utils.convertUtilDateToSQL(new Date(2020, 12, 12)),
-				10, 33, "https://media.htzone.co.il/497/30/133224.jpg");
+				10, 33, "https://image.freepik.com/free-photo/beautiful-girl-picnic-asummer-field_1157-37959.jpg");
 		company3.addCoupon(coupon7);
 		
 		Coupon coupon8 = new Coupon(company3.getId(), Category.Electricity, "couponNine", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
@@ -100,19 +100,19 @@ public class AddData implements CommandLineRunner {
 		company3.addCoupon(coupon8);
 		Coupon coupon9 = new Coupon(company3.getId(), Category.Vacation, "couponTen", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 12, 12)), Utils.convertUtilDateToSQL(new Date(2020, 12, 12)),
-				10, 20, "https://media.htzone.co.il/507/80/135168.jpg");
+				10, 20, "https://image.freepik.com/free-photo/happy-black-family-having-fun-doing-picnic-outdoor_166273-247.jpg");
 		company3.addCoupon(coupon9);
 		Coupon coupon10 = new Coupon(company3.getId(), Category.Vacation, "couponEleven", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 12, 12)), Utils.convertUtilDateToSQL(new Date(2020, 12, 12)),
-				10, 777, "https://media.htzone.co.il/503/50/134357.jpg");
+				10, 777, "https://image.freepik.com/free-photo/happy-family-sitting-car_107420-82288.jpg");
 		company1.addCoupon(coupon10);
 		Coupon coupon11 = new Coupon(company3.getId(), Category.Sport, "couponTwelve", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 12, 12)), Utils.convertUtilDateToSQL(new Date(2020, 12, 12)),
-				10, 666, "https://media.htzone.co.il/431/35/120628.jpg");
+				10, 666, "https://image.freepik.com/free-photo/strong-man-training-gym_1303-23478.jpg");
 		company1.addCoupon(coupon11);
 		Coupon coupon12 = new Coupon(company3.getId(), Category.Food, "couponThirteen", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 12, 12)), Utils.convertUtilDateToSQL(new Date(2020, 12, 12)),
-				10, 44, "https://media.htzone.co.il/34674/100369.jpg");
+				10, 44, "https://image.freepik.com/free-photo/crispy-french-fries-with-ketchup-mayonnaise_1150-26588.jpg");
 		company2.addCoupon(coupon12);
 		Coupon coupon13 = new Coupon(company3.getId(), Category.Food, "couponFourteen", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 12, 12)), Utils.convertUtilDateToSQL(new Date(2020, 12, 12)),
@@ -120,19 +120,19 @@ public class AddData implements CommandLineRunner {
 		company2.addCoupon(coupon13);
 		Coupon coupon14 = new Coupon(company3.getId(), Category.Food, "couponfifteen", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 12, 12)), Utils.convertUtilDateToSQL(new Date(2020, 12, 12)),
-				10, 87, "https://media.htzone.co.il/494/49/132689.jpg");
+				10, 87, "https://image.freepik.com/free-photo/fried-chicken-with-french-fries-nuggets-meal_1339-82478.jpg");
 		company.addCoupon(coupon14);
 		Coupon coupon15 = new Coupon(company3.getId(), Category.Sport, "couponSixteen", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 12, 12)), Utils.convertUtilDateToSQL(new Date(2020, 12, 12)),
-				10, 100, "https://media.htzone.co.il/507/97/135227.jpg");
+				10, 100, "https://image.freepik.com/free-photo/workout-street_144627-45043.jpg");
 		company.addCoupon(coupon15);
 		Coupon coupon16 = new Coupon(company3.getId(), Category.Sport, "couponSeventeen", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 12, 12)), Utils.convertUtilDateToSQL(new Date(2020, 12, 12)),
-				10, 169, "https://media.htzone.co.il/25421/75754.jpg");
+				10, 169, "https://image.freepik.com/free-photo/riding-mountains_207634-12.jpg");
 		company.addCoupon(coupon16);
 		Coupon coupon17 = new Coupon(company3.getId(), Category.Sport, "couponEighteen", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 05, 05)), Utils.convertUtilDateToSQL(new Date(2020, 05, 05)),
-				10, 179, "https://media.htzone.co.il/435/40/121771.png");
+				10, 179, "https://image.freepik.com/free-photo/asian-runner-warm-up-his-body-before-start-running-road_30478-199.jpg");
 		company.addCoupon(coupon17);
 		
 		
