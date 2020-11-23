@@ -77,7 +77,7 @@ public class AddData implements CommandLineRunner {
 				Utils.convertUtilDateToSQL(new Date(2020, 10, 10)), Utils.convertUtilDateToSQL(new Date(2021, 10, 11)),
 				10, 99, "https://image.freepik.com/free-photo/strong-man-training-gym_1303-23876.jpg");
 		company1.addCoupon(coupon3);
-		Coupon coupon4 = new Coupon(company2.getId(), Category.Food, "Schnitzelד", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
+		Coupon coupon4 = new Coupon(company2.getId(), Category.Food, "Schnitzel", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem exercitationem porro cupiditate.",
 				Utils.convertUtilDateToSQL(new Date(2020, 11, 11)), Utils.convertUtilDateToSQL(new Date(2021, 11, 11)),
 				10, 138, "https://image.freepik.com/free-photo/top-view-chicken-wings-plate-with-sesame-seeds-beer_23-2148679082.jpg");
 		company2.addCoupon(coupon4);
